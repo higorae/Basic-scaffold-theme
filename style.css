@@ -1,6 +1,6 @@
 /*
-Theme Name: Vila club
-Author: maxmeio
+Theme Name: ...
+Author: ...
 Version: 0.1
 */
 h3#comments-title,
@@ -212,13 +212,4 @@ h3#reply-title {
 #respond .form-submit input {
 	font-size: 14px;
 	width: auto;
-}
-
-#noticias {
-    width: 650px;
-    float: left;
-}
-
-.col-right-index {
-    margin-top: 47px;
 }
