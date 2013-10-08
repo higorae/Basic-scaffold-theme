@@ -15,4 +15,5 @@ sitemap.xml
 sitemap.xml.gz
 readme.html
 license.txt
-styles.less
+lib/css/styles.less
+imgs/*
