@@ -24,10 +24,9 @@
 			echo ' | ' . sprintf( __( 'Page %s', 'twentyeleven' ), max( $paged, $page ) );
 
 		?></title>
-		
-		<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url') ?>/lib/css/boilerplate.css?v=2"/>
-        <link rel="stylesheet/less" type="text/css" href="<?php bloginfo('template_url') ?>/lib/css/styles.less">
-        <script src="<?php bloginfo('template_url') ?>/lib/js/less-1.3.0.min.js" type="text/javascript"></script>
+        
+    <link rel="stylesheet/less" type="text/css" href="<?php bloginfo('template_url') ?>/lib/css/styles.less">
+    <script src="<?php bloginfo('template_url') ?>/lib/js/less.js" type="text/javascript"></script>
         
 		<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 		<?php wp_head() ?>
