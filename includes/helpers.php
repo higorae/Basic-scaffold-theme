@@ -53,7 +53,7 @@
       } else {
         $default_css = array("jquery.js");
       }
-      $files = array_merge($files, array("jquery.js", "less.js"));
+      $files = array_merge($default_css, $files);
       
       $return = "<!-- ## JS files -->\n";
       foreach($files as $file) {
@@ -66,6 +66,11 @@
       } else {
         return $return;
       }
+    }
+    
+    public static function img($img = array())
+    {
+      return "<img src='".get_bloginfo('template_url')."/lib/imgs/{$img['file']}' width='{$img['width']}' height='{$img['height']}' alt='{$img['alt']}' />";
     }
   }
   

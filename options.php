@@ -107,10 +107,22 @@ function optionsframework_options() {
 		'type' => 'heading');
 		
 	$options[] = array(
-		'name' => __('Cabeçalho', 'options_framework_theme'),
-		'id' => 'cabecalho_imagem',
-		'type' => 'upload');
-
+		'name' => __('facebook', 'options_framework_theme'),
+		'id' => 'link_facebook',
+		'type' => 'text');
+	$options[] = array(
+		'name' => __('twitter', 'options_framework_theme'),
+		'id' => 'link_twitter',
+		'type' => 'text');
+	$options[] = array(
+		'name' => __('Flicker', 'options_framework_theme'),
+		'id' => 'link_flicker',
+		'type' => 'text');				
+	$options[] = array(
+		'name' => __('youtube', 'options_framework_theme'),
+		'id' => 'link_youtube',
+		'type' => 'text');
+		
 	return $options;
 }
 
